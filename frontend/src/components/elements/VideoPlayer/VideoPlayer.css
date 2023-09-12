@@ -1,0 +1,13 @@
+.video-player {
+  padding: 40px;
+  background-color: #1c1c1c;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-player video {
+  height: 595px;
+  width: 1057px;
+  background-color: gray;
+}

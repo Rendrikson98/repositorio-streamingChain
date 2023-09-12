@@ -1,0 +1,63 @@
+.searchbar {
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #5e5e5e;
+}
+
+.searchbar > input {
+  height: 100%;
+  width: 85%;
+  color: #222;
+  padding: 5px 8px;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  background-color: inherit;
+  color: #eee;
+  font-weight: 300;
+}
+
+.searchbar > button {
+  height: 100%;
+  width: 15%;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: #5e5e5e;
+}
+
+.searchbar > button > i {
+  color: #222;
+}
+
+::-webkit-input-placeholder {
+  color: #aaa;
+  font-weight: 300;
+}
+:-moz-placeholder {
+  color: #aaa;
+  opacity: 1;
+  font-weight: 300;
+}
+::-moz-placeholder {
+  color: #aaa;
+  opacity: 1;
+  font-weight: 300;
+}
+:-ms-input-placeholder {
+  color: #aaa;
+  font-weight: 300;
+}
+::-ms-input-placeholder {
+  color: #aaa;
+  font-weight: 300;
+}
+
+::placeholder {
+  color: #aaa;
+  font-weight: 300;
+}

@@ -1,0 +1,22 @@
+.header-user {
+  height: 50px;
+  width: 150px;
+  padding: 10px;
+  background-color: #5e5e5e;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.user-avatar {
+  height: 40px;
+  width: 40px;
+  background-color: aqua;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-size: 16px;
+}

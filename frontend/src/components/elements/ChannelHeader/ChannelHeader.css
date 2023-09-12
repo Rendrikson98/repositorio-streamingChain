@@ -1,0 +1,23 @@
+.channel-header {
+    margin-bottom: 120px;
+}
+
+.channel-banner {
+    height: 250px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.channel-avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    overflow: hidden;
+    position: absolute;
+    bottom: -100px;
+}

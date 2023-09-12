@@ -1,0 +1,7 @@
+.channel-videos {
+  padding: 40px;
+  background-color: #1c1c1c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

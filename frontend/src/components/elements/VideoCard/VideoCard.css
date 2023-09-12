@@ -1,0 +1,55 @@
+.video-card {
+  height: 260px;
+  width: 300px;
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.video-card:hover {
+  background-color: #292929;
+  transform: scale(1.1);
+}
+
+.video-thumbnail {
+  height: 70%;
+  width: 100%;
+  background-color: #555;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-info {
+  height: 30%;
+  width: 100%;
+}
+
+.video-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.video-info > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.views {
+  font-size: 14px;
+}
+
+.views > i {
+  margin-right: 10px;
+}
+
+.channel-from {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 5px 0;
+}

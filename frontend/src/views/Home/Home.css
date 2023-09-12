@@ -1,0 +1,9 @@
+.home {
+  width: 80%;
+}
+
+.home > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
